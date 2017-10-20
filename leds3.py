@@ -26,7 +26,7 @@ try:
     i = i + 1
 
     for number in range(100):
-	fade()
+      fade()
 
 except KeyboardInterrupt:
   pass
