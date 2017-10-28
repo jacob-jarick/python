@@ -15,5 +15,5 @@ def get_cpu_freq():
         lcd_string(LINE2, LCD_LINE_2)
 
         f1=open('./testfile.html', 'w+')
-        f1.write('<HTML><PRE>' + LINE1 + "\n" + LINE2 + "\n")
+        f1.write('<HTML><HEAD><meta http-equiv="refresh" content="10" ></HEAD><PRE>' + LINE1 + "\n" + LINE2 + "\n")
         f1.close()
